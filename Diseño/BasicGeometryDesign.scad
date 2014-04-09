@@ -169,9 +169,10 @@ module system(res){
 //translate([0,-strr,0])finalTopStrutt(res);//
 //rotate([180,0,0]) translate([0,-strr,0]) finalBttmStrutt(res);// 
 //PontoonConnect(res);
-//system(60);//res=150 is high, 30 is low
+
 translate([0,0,0]) bottomPontoon(res);//-2*r
 //rotate([0,0,90])translate([0,Rl/2,Pbh/4+pp3y])rotate([90,0,0])rail(res);
+//system(60);//res=150 is high, 30 is low
 //rotate([0,0,-30])translate([0,Rl/2,Pb/2])rotate([90,0,0])rail(res);
 //rotate([0,0,-150])translate([0,Rl/2,Pb/2])rotate([90,0,0])rail(res);
 //WeightSupport();
